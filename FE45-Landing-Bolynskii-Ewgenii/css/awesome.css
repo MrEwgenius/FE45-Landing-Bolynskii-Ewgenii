@@ -9,7 +9,7 @@
     row-gap: 20px;
 }
 .awesome-card {
-    padding: 0 15px;
+    margin: 0 15px;
     width: 350px;
 }
 .awesome-card--img {
