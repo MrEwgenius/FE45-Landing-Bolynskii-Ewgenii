@@ -1,0 +1,57 @@
+.pricing-height {
+    margin-bottom: 68px;
+}
+
+.pricing-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    margin: 0 -15px;
+}
+
+.pricing-card {
+    padding: 0 15px;
+}
+
+.pricing-card--item {
+    width: 340px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #86878b;
+    margin-bottom: 2px;
+}
+
+.pricing-card--item:last-child {
+    margin-bottom: 0px;
+}
+
+.pricing-card--tarif {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 12px 0px;
+    background: #333333;
+    color: #ffffff;
+}
+
+.pricing-card--cost {
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: 700;
+    padding: 29px 0px;
+    background: #333333;
+    color: #ffffff;
+}
+
+.pricing-card--info {
+    font-weight: 600;
+    padding: 16px 0;
+    background: #333333;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 4px;
+}
