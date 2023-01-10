@@ -2,8 +2,6 @@
     position: relative;
     background: url("../img/background 1.png") no-repeat center;
     background-size: cover;
-    /* height: 326px; */
-    /* padding: 0; */
 }
 .design::before {
     content: "";
@@ -45,27 +43,25 @@
     color: rgba(255, 255, 255, 0.8);
 }
 .design-button {
-    display: block;
-    transition: 0.3s;
-    cursor: pointer;
-    width: 135px;
-    height: 42px;
-    margin: auto;
+    text-align: center;
+}
+.design-button a {
+    padding: 10px 20px;
     border: 1px solid white;
+    text-align: center;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #ffffff;
-    background-color: transparent;
 }
-.design-button:hover {
+.design-button a:hover {
     position: relative;
     font-size: 16px;
     bottom: 3px;
     background: rgba(0, 0, 0, 0.55);
     color: rgba(255, 255, 255, 0.8);
 }
-.design-button:active {
+.design-button a:active {
     position: relative;
     top: 3px;
 }

@@ -16,13 +16,21 @@
 }
 
 .pricing-card--item {
+    cursor: pointer;
     text-align: center;
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
-    padding: 10px 0;
     color: #86878b;
-    margin-bottom: 2px;
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+    padding: 10px 0;
+    margin-bottom: 4px;
+}
+
+.pricing-card--item:hover{
+    transform: translate(-2px, -2px);
+    box-shadow: -8px -8px 3px -6px rgba(34, 60, 80, 0.5) inset;
 }
 
 .pricing-card--item:last-child {
