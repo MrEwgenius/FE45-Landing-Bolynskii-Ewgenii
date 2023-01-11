@@ -1,3 +1,7 @@
+.pricing{
+    background-color: #e5e5e5;
+}
+
 .pricing-height {
     margin-bottom: 68px;
 }
@@ -28,7 +32,7 @@
     margin-bottom: 4px;
 }
 
-.pricing-card--item:hover{
+.pricing-card--item:hover {
     transform: translate(-2px, -2px);
     box-shadow: -8px -8px 3px -6px rgba(34, 60, 80, 0.5) inset;
 }

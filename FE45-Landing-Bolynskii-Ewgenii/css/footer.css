@@ -5,12 +5,12 @@
 
 .footer-social--list{
     justify-content:center;
-    /* column-gap: 40px; */
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 18px;
+    margin: 0 auto 18px;
 }
 .footer-list--item a{
     font-size: 30px;
+    margin: 0 15px;
 }
 .footer-copiright p {
     text-align: center;
