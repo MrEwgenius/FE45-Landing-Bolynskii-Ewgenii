@@ -5,7 +5,7 @@
 
 .footer-social--list{
     justify-content:center;
-    column-gap: 40px;
+    /* column-gap: 40px; */
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 18px;
 }

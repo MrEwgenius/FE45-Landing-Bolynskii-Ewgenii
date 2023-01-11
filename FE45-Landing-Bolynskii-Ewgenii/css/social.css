@@ -1,3 +1,6 @@
+.social{
+    background: #F8EFEF;
+}
 .social-wrap {
     display: flex;
     justify-content: space-between;
@@ -31,8 +34,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 63px;
-    margin: 0 15px;
+    max-width: 700px;
+    /* column-gap: 63px; */
+    /* margin: 0 15px; */
 }
 
 .social-list--item {
@@ -43,6 +47,7 @@
     font-size: 45px;
     line-height: 0;
     color: #86878b;
+    margin: 0 25px;
 }
 
 .fa-brands,
