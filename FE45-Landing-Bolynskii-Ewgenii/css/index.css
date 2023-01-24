@@ -1,13 +1,15 @@
 @import url("./cdn.css");
 @import url("./awesome.css");
 @import url("./pricing.css");
-@import url("./reviews.css");
+@import url("./revievs.css");
 @import url("./design.css");
 @import url("./navigation.css");
 @import url("./social.css");
 @import url("./footer.css");
 @import url("./modern.css");
 @import url("./contact.css");
+@import url("./tabs.css");
+@import url("./media.css");
 
 * {
     margin: 0;
@@ -17,13 +19,17 @@
     text-decoration: none;
 }
 
+
+.none {
+    display: none;
+}
 html,
 body {
-    font-family: "Open Sans", "Raleway", "Roboto" sans-serif;
+    font-family: "Open Sans", "Raleway", "Roboto";
 }
 input,
 textarea {
-    font-family:inherit;
+    font-family: inherit;
     display: block;
     outline: none;
     border: none;

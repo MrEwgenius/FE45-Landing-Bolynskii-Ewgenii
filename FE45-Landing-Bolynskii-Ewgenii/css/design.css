@@ -53,6 +53,7 @@
     font-size: 15px;
     line-height: 20px;
     color: #ffffff;
+    transition: all 0.2s ease-in;
 }
 .design-button a:hover {
     position: relative;

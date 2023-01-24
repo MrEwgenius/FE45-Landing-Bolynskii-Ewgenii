@@ -1,6 +1,7 @@
 .modern {
     background: url("../img/bg-modern.png") no-repeat center;
     background-size: cover;
+    height: calc(100vh - 71px);
 }
 .modern-wrap {
     display: flex;
@@ -12,14 +13,18 @@
 .nav-logo-modern {
     margin-bottom: 42px;
 }
-.nav-logo-modern p {
+.nav-logo-modern span:first-child,
+.nav-logo-modern span:last-child {
     font-family: "Roboto", sans-serif;
     font-size: 60px;
     line-height: 70px;
 }
+.modern-column--description{
+    max-width: 544px;
+
+}
 .modern-title {
     font-family: "Raleway", sans-serif;
-    max-width: 544px;
     font-size: 36px;
     line-height: 42px;
     font-weight: 400;
@@ -58,6 +63,7 @@
 .modern-form {
     overflow: hidden;
     border-radius: 8px;
+    width: 370px;
 }
 .form-content {
     background-color: #fff;
@@ -86,10 +92,7 @@
     border-bottom: 1px solid #bdbdbd;
     width: 100%;
 }
-/* .form-content--item input:focus {
-    /* box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25); */
-    /* transform: scale(1.1); 
-} */
+
 .form-btn {
     width: 100%;
     font-size: 15px;

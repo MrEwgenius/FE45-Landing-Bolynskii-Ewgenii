@@ -12,7 +12,12 @@
     align-items: center;
     column-gap: 30px;
 }
-.nav-logo p {
+.burger-menu {
+    cursor: pointer;
+    display: none;
+}
+.nav-logo span:first-child,
+.nav-logo span:last-child {
     font-family: "Raleway", sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -20,9 +25,10 @@
     color: #ffffff;
     text-transform: uppercase;
 }
-.nav-logo span {
+.nav-logo span:last-child {
     color: #ec7979;
 }
+
 .nav-list {
     display: flex;
     justify-content: space-between;
@@ -47,7 +53,7 @@
 .nav-list--item:hover {
     transform: translate(0px, -2px);
 }
-.nav-list--item:hover::after {
+.nav-list--item a:hover::after {
     content: "";
     position: absolute;
     display: block;
