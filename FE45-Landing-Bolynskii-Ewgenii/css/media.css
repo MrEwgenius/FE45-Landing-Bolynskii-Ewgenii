@@ -10,6 +10,8 @@
         text-align: center;
     }
     .social-desc--text p {
+        padding: 0 15px;
+
         text-align: center;
     }
     .social-list {
@@ -23,11 +25,16 @@
 
     /* FOOTER */
     .footer-social--list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 700px;
+        margin: 0 auto 18px;
     }
     .footer-list--item {
-        margin: 0 0 18px;
+        margin: 0;
     }
-
+    
     /* AWESOME */
     .awesome-wrap {
         justify-content: space-around;
@@ -94,7 +101,7 @@
         margin: 20px auto 0;
     }
     .form-content {
-        padding: 15px 60px 45px;
+        padding: 15px 58px 45px;
     }
     .form-title {
         margin-bottom: 35px;
@@ -129,7 +136,8 @@
     .tabs-button--slider {
         display: inline-block;
         width: 90px;
-        height: 90px;
+        height: 30px;
+        margin: 0;
     }
 
     /* AWESOME */
@@ -144,16 +152,25 @@
 }
 
 @media (max-width: 767px) {
+    
     /* NAV */
     .burger-menu {
         display: block;
     }
-    .nav{
-    padding: 5px 0;}
+    .nav {
+        padding: 5px 0;
+    }
     .nav-list {
         display: none;
     }
-    
+
+    /* SOCIAL */
+    .social-list--item {
+        margin: 0 20px 20px;
+    }
+    .social-list--item a {
+        font-size: 30px;
+    }
 
     /* TABS */
     .tabs-content {
@@ -205,6 +222,11 @@
         width: 100%;
         display: block;
     }
+    /* FOOTER */
+    .footer-list--item a{
+        
+        margin: 0;
+    }
 }
 
 @media (max-width: 566px) {
@@ -221,12 +243,11 @@
         width: 270px;
     }
     .tabs-button--slider {
-        display: inline-block;
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 30px;
     }
     .tabs-button {
-        width: 250px;
+        width: 270px;
     }
 
     /* AWESOME */
@@ -268,6 +289,11 @@
     /* DESIGN */
     .design-button a {
         padding: 12px 50px;
+    }
+    /* CONTACT US */
+    .contact-form--input,
+    .contact-form-textarea {
+        width: 80%;
     }
 }
 @media (max-width: 320px) {
